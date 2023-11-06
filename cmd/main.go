@@ -4,12 +4,12 @@ import (
 	"log"
 
 	"github.com/AlexBragin1/golang_telegram_bot/pkg/telegram"
-	"github.com/go-telegram-bot-api/telegram-bot-api/v5"
+	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
- 
+
 func main() {
 
-	bot, err := tgbotapi.NewBotAPI("TOKEN")
+	bot, err := tgbotapi.NewBotAPI("6798282811:AAFbodcTLV0TmyfDTq_fe5-ljWagw4dSEjE")
 
 	if err != nil {
 		log.Panic(err)
@@ -23,8 +23,8 @@ func main() {
 	}
 
 }
-func initLoad(){
+func initLoad() {
 	//if err:=godoenv.Load();err!=nil{
 
-//	}
-} 
+	// }
+}
