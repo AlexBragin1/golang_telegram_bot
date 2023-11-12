@@ -1,6 +1,6 @@
 package telegram
 
-const (
+const(
 	txtPrice = `Стоимость курса 3000руб`
 
 	txtStart = `Добро пожаловать в мир Женского ДАО
@@ -29,7 +29,7 @@ const (
 	txtDeleteUser       = `Введите имя user для удаления из канала`
 )
 var btnStart = []types.TgRowButtons{
-	{types.TgInlineButton{DisplayName: "Добавить категорию", Value: "/add_cat"}, types.TgInlineButton{DisplayName: "Добавить расход", Value: "/add_rec"}},
+	{types.TgInlineButton{DisplayName: "Оплата", Value: "/add_cat"}, types.TgInlineButton{DisplayName: "Удалить", Value: "/add_rec"}},
 	{types.TgInlineButton{DisplayName: "Отчет за неделю", Value: "/report_w"}, types.TgInlineButton{DisplayName: "Отчет за месяц", Value: "/report_m"}, types.TgInlineButton{DisplayName: "Отчет за год", Value: "/report_y"}},
 	{types.TgInlineButton{DisplayName: "Ввести данные за прошлый период", Value: "/add_tbl"}},
 	{types.TgInlineButton{DisplayName: "Выбрать валюту", Value: "/choice_currency"}, types.TgInlineButton{DisplayName: "Установить бюджет", Value: "/set_limit"}},
